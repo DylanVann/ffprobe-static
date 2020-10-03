@@ -8,8 +8,8 @@ var arch = os.arch()
 
 var binaries = {
   darwin: ['x64'],
-  linux: ['x64', 'ia32']
-  win32: ['x64', 'ia32']
+  linux: ['x64', 'ia32'],
+  win32: ['x64', 'ia32'],
 }
 
 if (!binaries[platform] || binaries[platform].indexOf(arch) === -1) {
