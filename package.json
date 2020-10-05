@@ -1,6 +1,6 @@
 {
   "name": "@dylanvann/ffprobe-static",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ffprobe static binaries.",
   "keywords": [
     "ffprobe",
@@ -22,7 +22,8 @@
   "types": "index.d.ts",
   "files": [
     "bin",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "tape tests/*"
